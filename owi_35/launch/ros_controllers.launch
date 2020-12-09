@@ -1,0 +1,11 @@
+<launch>
+  <rosparam file = "$(find owi_35)/config/ros_controllers.yaml" command="load"/>
+  <node name = "controller_spawner" pkg = "controller_manager" type ="spawner" respawn = "false"
+    output = "screen" ns="/owi535" args= "joint_state_controller Joint1PositionController
+    Joint2PositionController Joint3PositionController Joint4PositionController"/>
+    
+    <node name= "robot_state_publisher" pkg= "robot_state_publisher" type ="robot_state_publisher" 
+      respawn= "false" output= "screen">
+      <remap from= "/joint_states" to ="/owi535/joint_states" />
+    </node>
+  </launch>

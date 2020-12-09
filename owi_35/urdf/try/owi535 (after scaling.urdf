@@ -1,0 +1,1013 @@
+<?xml version="1.0" ?>
+<robot name="owi535">
+
+   <link name="World"/>
+   <link name="Model">
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.3.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_001-mesh.3.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_002-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_002-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_003-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_003-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="5" />
+            
+<inertia ixx="1.004" ixy="1.001" ixz="1" iyy="1.006" iyz="1" izz="1.007" />      </inertial>
+   </link>
+   <link name="Elbow">
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_004-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_004-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_005-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_005-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_006-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_006-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_007-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_007-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_008-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_008-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_009-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_009-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_010-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_010-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_011-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_011-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_040-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_040-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_041-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_041-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_042-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_042-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_043-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_043-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_044-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_044-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_045-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_045-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_046-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_046-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_047-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_047-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_048-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_048-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_049-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_049-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_050-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_050-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_051-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_051-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_052-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_052-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_053-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_053-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_054-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_054-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_055-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_055-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078" />
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_056-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_056-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_057-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-7.94463961284464e-09 -0.0 0.0" xyz="46.62922668457031 -157.33990478515625 23.237262725830078"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_057-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="5" />
+            
+         <inertia ixx="0.03" ixy="0" ixz="0" iyy="0.03" iyz="0" izz="0.03" />      </inertial>
+   </link>
+   <link name="Wrist">
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_012-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_012-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_013-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_013-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_014-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_014-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_015-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_015-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_016-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_016-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_017-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_017-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_018-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_018-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_019-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_020-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_020-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_021-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_021-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_022-mesh.2.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_023-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_023-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_024-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_024-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_025-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_025-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_026-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_026-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_026-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_026-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_027-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_027-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_028-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_028-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_029-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_029-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_030-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_030-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_031-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_031-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_032-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_032-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_033-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_033-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_034-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_034-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_035-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_035-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_036-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_036-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_037-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_037-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_037-mesh.1.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_037-mesh.1.obj" scale="0.01 0.01 0.01" />
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_038-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_038-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_039-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_039-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="5" />
+            
+           <inertia ixx="0.03" ixy="0" ixz="0" iyy="0.03" iyz="0" izz="0.03" />     </inertial>
+   </link>
+   <link name="Base">
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_058-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_058-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_059-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_059-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_060-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_060-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_061-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_061-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_062-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_062-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_063-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_063-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="5" />
+            
+           <inertia ixx="0.03" ixy="0" ixz="0" iyy="0.03" iyz="0" izz="0.03" />    </inertial>
+   </link>
+   <link name="Rotation">
+      <visual>
+         <origin rpy="1.112884007170578e-08 -1.2086680101219856e-07 -3.1868600558481205e-07" xyz="45.94236755371094 -66.8334732055664 25.347610473632812"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_064-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.112884007170578e-08 -1.2086680101219856e-07 -3.1868600558481205e-07" xyz="45.94236755371094 -66.8334732055664 25.347610473632812"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_064-mesh.0.obj" scale="0.01 0.01 0.01"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="5" />
+          
+           <inertia ixx="0.03" ixy="0" ixz="0" iyy="0.03" iyz="0" izz="0.03" />    </inertial>
+   </link>
+   <joint name="World_Model" type="fixed">
+      <parent link="World"/>
+      <child link="Model"/>
+<dynamics damping="0.0" friction="0.0"/>
+      <origin rpy="1.5707963705062988 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+   </joint>
+   <joint name="Model_Rotation" type="revolute">
+      <parent link="Model"/>
+      <child link="Rotation"/>
+<dynamics damping="0.0" friction="0.0"/>
+      <origin rpy="0.0 -0.0 0.0" xyz="-45.9423713684082 66.8334732055664 -25.347610473632812"/>
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="1.0" lower="-2.268928" upper="2.268928"/>
+   </joint>
+   <joint name="Rotation_Base" type="revolute">
+      <parent link="Rotation"/>
+      <child link="Base"/>
+<dynamics damping="0.0" friction="0.0"/>
+      <origin rpy="5.5644200358528906e-09 -6.043340050609917e-08 -1.5934300279241008e-07" xyz="0.7350807189941406 0.8293303847312927 2.3800790309906006"/>
+      <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-1.570796" upper="1.047198"/>
+   </joint>
+   <joint name="Base_Elbow" type="revolute">
+      <parent link="Base"/>
+<dynamics damping="0.0" friction="0.0"/>
+      <child link="Elbow"/>
+      <origin rpy="5.5644200358528906e-09 -0.0 0.0" xyz="-1.42194402217865 89.6771011352539 -0.2697296142578125"/>
+      <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-1.047198" upper="1.570796"/>
+   </joint>
+   <joint name="Elbow_Wrist" type="revolute">
+      <parent link="Elbow"/>
+      <child link="Wrist"/>
+<dynamics damping="0.0" friction="0.0"/>
+      <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="1.4219470024108887 -0.3902587890625 -113.5781021118164"/>
+      <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-0.785398" upper="0.785398"/>
+   </joint>
+
+   <transmission name="tran2">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Model_Rotation">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor1">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran3">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Rotation_Base">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor2">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran4">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Base_Elbow">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor3">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran5">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Elbow_Wrist">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor4">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+    <gazebo>
+<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
+<robotNamespace>/owi535</robotNamespace>
+<robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+<legacyModeNS>true</legacyModeNS>
+</plugin>
+</gazebo>
+
+</robot>

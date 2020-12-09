@@ -1,0 +1,5 @@
+gazebo_ros_control/pid_gains:
+  Model_Rotation: {p: 100.0, i: 0.01, d: 10.0}
+  Rotation_Base: {p: 100.0, i: 0.01, d: 10.0}
+  Base_Elbow: {p: 100.0, i: 0.01, d: 10.0}
+  Elbow_Wrist: {p: 100.0, i: 0.01, d: 10.0}   

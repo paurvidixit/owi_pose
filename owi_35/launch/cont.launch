@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<launch>
+<!--    <rosparam file="$(find owi_35)/config/ros_control_params.yaml" command="load"/>
+ -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" default="$(find owi_35)/launch/world/empty.world"/>
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="headless" value="$(arg headless)"/>
+  </include>
+
+  <param name="robot_description" textfile="$(find owi_35)/urdf/owi535.urdf"/>
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+    args="-urdf -x 0 -y 0 -z 0 -model owi535 -param robot_description"/>
+
+    <rosparam file = "$(find owi_35)/config/ros_controllers.yaml" command="load"/>
+  <node name = "controller_spawner" pkg = "controller_manager" type ="spawner" respawn = "false"
+    output = "screen" ns="/owi535" args= "joint_state_controller Model_Rotation_Position_Controller Rotation_Base_Position_Controller Base_Elbow_Position_Controller Elbow_Wrist_Position_Controller"/>
+    <node name="joint_state_publisher" pkg ="joint_state_publisher" type ="joint_state_publisher">
+	
+	</node>
+    <node name= "robot_state_publisher" pkg= "robot_state_publisher" type ="robot_state_publisher" 
+      respawn= "false" output= "screen">
+      <remap from= "/joint_states" to ="/owi535/joint_states" />
+    </node>
+<param name="robot_description_c" textfile="$(find owi_35)/urdf/camera_on_standOLD.urdf"/>
+  <node name="urdf_spawnerC" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+    args="-urdf -model camera_on_stand -param robot_description_c -x 2 -y 1 -z 1"/>
+
+</launch>

@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<robot name="owi535">
+   <link name="World"/>
+   <link name="Model">
+      <visual>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled-mesh.0.obj"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="0.0 -0.0 0.0" xyz="0.0 0.0 0.0"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled-mesh.0.obj"/>
+         </geometry>
+      </collision>
+      
+      <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+             <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+      </inertial>
+   </link>
+   <link name="Elbow">
+      <visual>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_004-mesh.0.obj"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="46.62923049926758 -157.33990478515625 23.237260818481445"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_004-mesh.0.obj"/>
+         </geometry>
+      </collision>
+      
+      <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+      </inertial>
+   </link>
+   <link name="Wrist">
+      <visual>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_012-mesh.0.obj"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="4.371139894487894e-08 -0.0 0.0" xyz="45.20729064941406 -156.94960021972656 136.8153076171875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_012-mesh.0.obj"/>
+         </geometry>
+      </collision>
+
+      <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+      </inertial>
+   </link>
+   <link name="Base">
+      <visual>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_058-mesh.0.obj"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.1128840071705781e-08 -0.0 0.0" xyz="45.207271575927734 -67.66277313232422 22.967529296875"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_058-mesh.0.obj"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+      </inertial>
+   </link>
+   <link name="Rotation">
+      <visual>
+         <origin rpy="1.112884007170578e-08 -1.2086680101219856e-07 -3.1868600558481205e-07" xyz="45.94236755371094 -66.8334732055664 25.347610473632812"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_064-mesh.0.obj"/>
+         </geometry>
+      </visual>
+      <collision>
+         <origin rpy="1.112884007170578e-08 -1.2086680101219856e-07 -3.1868600558481205e-07" xyz="45.94236755371094 -66.8334732055664 25.347610473632812"/>
+         <geometry>
+            <mesh filename="package://owi_35/urdf/Untitled_064-mesh.0.obj"/>
+         </geometry>
+      </collision>
+      <inertial>
+            <mass value="0.1" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+      </inertial>
+   </link>
+   <joint name="World_Model" type="fixed">
+      <parent link="World"/>
+      <child link="Model"/>
+      <origin rpy="1.5707963705062988 -0.0 0.0" xyz="0.0 0.0 10.0"/>
+   </joint>
+   <joint name="Model_Rotation" type="fixed">
+      <parent link="Model"/>
+      <child link="Rotation"/>
+      <origin rpy="0.0 -0.0 0.0" xyz="-45.9423713684082 66.8334732055664 -25.347610473632812"/>
+      <!-- <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="1.0" lower="-2.268928" upper="2.268928"/> -->
+   </joint>
+   <joint name="Rotation_Base" type="fixed">
+      <parent link="Rotation"/>
+      <child link="Base"/>
+      <origin rpy="5.5644200358528906e-09 -6.043340050609917e-08 -1.5934300279241008e-07" xyz="0.7350807189941406 0.8293303847312927 2.3800790309906006"/>
+      <!-- <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-1.570796" upper="1.047198"/> -->
+   </joint>
+   <joint name="Base_Elbow" type="fixed">
+      <parent link="Base"/>
+      <child link="Elbow"/>
+      <origin rpy="5.5644200358528906e-09 -0.0 0.0" xyz="-1.42194402217865 89.6771011352539 -0.2697296142578125"/>
+      <!-- <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-1.047198" upper="1.570796"/> -->
+   </joint>
+   <joint name="Elbow_Wrist" type="fixed">
+      <parent link="Elbow"/>
+      <child link="Wrist"/>
+      <origin rpy="-3.97231980642232e-09 -0.0 0.0" xyz="1.4219470024108887 -0.3902587890625 -113.5781021118164"/>
+     <!--  <axis xyz="1 0 0"/>
+      <limit effort="30" velocity="1.0" lower="-0.785398" upper="0.785398"/> -->
+   </joint>
+   <!-- <transmission name="tran1">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Model_Rotation">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor1">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran2">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Rotation_Base">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor2">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran3">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Base_Elbow">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor3">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="tran4">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="Elbow_Wrist">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor4">
+   <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+   <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission> -->
+<!--     <gazebo>
+<plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
+<robotNamespace>/owi535</robotNamespace>
+<robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+<legacyModeNS>true</legacyModeNS>
+</plugin>
+</gazebo> -->
+</robot>
